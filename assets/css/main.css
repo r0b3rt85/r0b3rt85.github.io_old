@@ -1,0 +1,14 @@
+
+
+body {
+  border:  1px solid blue;
+  background-color: lightblue;
+}
+
+
+hero {
+  width: 800px;
+  height: 500px;
+  border: 1px solid red;
+  background-color: pink;
+}
