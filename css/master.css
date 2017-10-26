@@ -1,0 +1,175 @@
+/* NOTE: Imports */
+@import url('https://fonts.googleapis.com/css?family=Poiret+One|Raleway|Space+Mono');
+
+
+
+/* NOTE: Variables */
+:root {
+--color-01: rgba(41, 47, 53, 1);
+--color-02: rgba(78, 205, 196, 1);
+--color-03: rgba(247, 255, 247, 1);
+--color-04: rgba(255, 107, 107, 1);
+--color-05: rgba(255, 230, 109, 1);
+
+--black:#292F36;
+--blue: #4ECDC4;
+--white: #F7FFF7;
+--red: #FF6B6B;
+--yellow: #FFE66D;
+}
+
+
+
+/* NOTE: General */
+html {
+  font-family: "Space Mono", monospace;
+  font-size: 12pt;
+}
+
+h1 {
+  font-family: "Poiret One", cursive;
+  font-size: 2em;
+}
+
+
+
+/* NOTE: Hero Section */
+.hero {
+  width: auto;
+  height: 600px;
+  padding: 5%;
+  background-color: var(--white);
+
+  display: flex;
+  flex-flow: column;
+  flex: auto;
+  align-items: center;
+}
+
+.hero .hero-logo {
+
+}
+
+.hero .hero-text {
+  max-width: 80%;
+  word-wrap: normal;
+  justify-content: center;
+  font-family: "Space Mono", monospace;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.hero .hero-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  border-width: 1px;
+  border-color: var(--color-04);
+  border-style: none;
+
+  background-color: var(--color-04);
+
+  font-family: "Poiret One", cursive;
+  text-align: center;
+  text-decoration: none;
+  color: var(--color-03);
+}
+
+.hero .hero-btn:hover {
+  background-color: var(--color-05);
+  border-color: var(--color-05);
+
+  color: var(--black);
+
+  animation-duration: 200ms;
+  animation-name: bubble;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: both;
+}
+
+@keyframes bubble {
+  from {
+    width: 40px;
+    height: 40px;
+  }
+  to {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+
+
+/* NOTE: Sections */
+
+.section-black {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  display: flex;
+  flex-flow: column;
+  flex: auto;
+  align-items: center;
+
+  background-color: var(--color-01);
+  color: var(--color-03);
+}
+
+.section-white {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  display: flex;
+  flex-flow: column;
+  flex: auto;
+  align-items: center;
+
+  background-color: var(--color-03);
+  color: var(--color-01);
+}
+
+.content-container {
+  max-width: 800px;
+}
+
+.b {
+  padding: 5%;
+  margin: 5% 0%;
+  background-color: var(--color-02);
+
+  color: var(--color-01);
+}
+
+.section-gallery {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1em;
+
+  background-color: var(--color-03);
+}
+
+.section-gallery img {
+  width: 100%;
+  display: block;
+}
+
+.img-fullwidth {
+  grid-column: span 3;
+}
+
+
+
+
+
+
+
+
+
+/* NOTE: Media Queries */

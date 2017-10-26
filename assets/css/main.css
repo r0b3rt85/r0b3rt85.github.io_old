@@ -1,14 +1,72 @@
 
-
 body {
   border:  1px solid blue;
-  background-color: lightblue;
+  background-color: white;
 }
 
 
-hero {
-  width: 800px;
+header {
+  width: auto;
   height: 500px;
   border: 1px solid red;
-  background-color: pink;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: normal;
+  color: lightblue;
+}
+
+h2 {
+  font-style: normal;
+  font-weight: normal;
+  color: grey;
+}
+
+h3 {
+  font-style: normal;
+  font-weight: normal;
+  color: white;
+}
+
+p {
+  font-style: normal;
+  font-weight: normal;
+  color: white;
+}
+
+#section_heading {
+
+}
+
+#hero {
+  background-image: url(file:///C:/Users/Robert/Pictures/Projects/Blogs/Images/pexels-photo-94363.jpeg);
+  background-size: cover;
+}
+
+#head_number {
+  font-style: italic;
+  font-weight: bold;
+  color: blue;
+  }
+
+#test {
+  width:100px;
+  height: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#section_box {
+width: auto;
+height: 200px;
+border: 1px solid white;
+}
+
+#header_details {
+
+}
+
+#social_links {
+  margin: 20px 40px
 }
