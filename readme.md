@@ -2,22 +2,22 @@
 
 ## Requirements
 
-- [ ] HTML
-- [ ] CSS
+- [x] HTML
+- [x] CSS
 - [ ] JS
-- [ ] Github
+- [x] Github
 
 ## CV Sections
-- [ ] Header / Hero
+- [x] Header / Hero
 - [ ] Work Experience
 - [ ] Skills and Competencies
 - [ ] Education
-- [ ] Projects
+- [x] Projects
 - [ ] Languages
 - [ ] Interests / Achievements / Certificates
 - [ ] References
 
 ## Pages
-- [ ] Main
+- [x] Main
 - [ ] Contact
 - [ ] Lab (hidden)
