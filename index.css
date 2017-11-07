@@ -1,0 +1,71 @@
+/************* Navigation *************/
+.my-navbar{
+  background-color: rgba(78, 205, 196, 1)
+}
+.my-logo-span {
+  font-family: "Poiret One", cursive;
+  font-weight: bold;
+  color: rgba(41, 47, 53, 1);
+}
+
+/************* Hero Section *************/
+.my-hero {
+  background-color: rgba(78, 205, 196, 1);
+}
+.my-arrow:hover {
+  background-color: rgba(41, 47, 53, 1);
+  border-radius: 100%;
+}
+
+/************* Badge / Tag Colours *************/
+.my-label {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}
+.my-label-html {
+  background-color: rgba(228, 77, 38, 1);
+  padding: 0px 8px;
+  border-radius: 4px;
+}
+.my-label-js {
+  background-color: rgba(229, 187, 49, 1);
+  padding: 0px 8px;
+  border-radius: 4px;
+}
+.my-label-py {
+  background-color: rgba(55, 118, 171, 1);
+  padding: 0px 8px;
+  border-radius: 4px;
+}
+.my-label-csharp {
+  background-color: rgba(149, 61, 172, 1);
+  padding: 0px 8px;
+  border-radius: 4px;
+}
+.my-label-java {
+  background-color: rgba(83, 130, 161, 1);
+  padding: 0px 8px;
+  border-radius: 4px;
+}
+.my-label-design {
+  background-color: rgba(0, 188, 144, 1);
+  padding: 0px 8px;
+  border-radius: 4px;
+}
+.my-label-other {
+  background-color: rgba(178, 178, 178, 1);
+  padding: 0px 8px;
+  border-radius: 4px;
+}
+
+
+
+.my-icon {
+  width: 30px;
+  height: auto;
+}
+
+/************* Modifications to the external CSS (UIKIT) *************/
+
+/************* Modifications to the external CSS (ANIMATE.CSS) *************/
